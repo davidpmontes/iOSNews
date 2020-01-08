@@ -52,5 +52,12 @@ class NewsTableViewController: UITableViewController
         
         return cell!
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        var detailVC = NewsDetailViewController(nibName: "NewsDetailViewController", bundle: nil)
+        
+        navigationController?.pushViewController(detailVC, animated: true)
+    }
 
 }
