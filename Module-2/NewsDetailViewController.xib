@@ -9,7 +9,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsDetailViewController" customModule="Module_2" customModuleProvider="target">
             <connections>
+                <outlet property="authorLabel" destination="Opv-Dy-rf5" id="5T5-iN-itm"/>
+                <outlet property="heightConstraint" destination="DYH-oH-VZj" id="kzV-GK-4kZ"/>
+                <outlet property="imageView" destination="kYO-c2-ozC" id="U9T-h6-E9H"/>
+                <outlet property="titleLabel" destination="rnW-Ll-y4j" id="43v-C7-Dde"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="Jfe-iM-1BB" id="n0P-0h-LVe"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
